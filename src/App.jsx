@@ -11,9 +11,6 @@ import Video from './components/Video/Video'
 function App() {
   const [count, setCount] = useState(0)
   const [video,chooseVideo] = useState("")
-  
-  const title = { name: "React", lastUpdated: "05092025"}
-  const size = 100
   let src = "https://s3.amazonaws.com/codecademy-content/courses/React/react_video-fast.mp4"
   const VIDEOS = {
     fast: 'https://s3.amazonaws.com/codecademy-content/courses/React/react_video-fast.mp4',
